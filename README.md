@@ -55,37 +55,30 @@
 - Cohere's language models
 
 
-
-
-
-
-
-
 To use a different model, you would need to import the appropriate LangChain integration and modify the llm initialization.
-Hugging Face model: You'll need to set the HUGGINGFACEHUB_API_TOKEN in your environment variables.
-Google PaLM: You'll need to set the GOOGLE_PALM_API_KEY in your environment variables.
-Anthropic's Claude: You'll need to set the ANTHROPIC_API_KEY in your environment variables.
-Cohere: You'll need to set the COHERE_API_KEY in your environment variables.
-Note : 
-To implement any of these changes, you would replace the OpenAI model initialization in your original code:
+
+- Hugging Face model: You'll need to set the HUGGINGFACEHUB_API_TOKEN in your environment variables.
+- Google PaLM: You'll need to set the GOOGLE_PALM_API_KEY in your environment variables.
+- Anthropic's Claude: You'll need to set the ANTHROPIC_API_KEY in your environment variables.
+- Cohere: You'll need to set the COHERE_API_KEY in your environment variables.
+
+Note : To implement any of these changes, you would replace the OpenAI model initialization in your original code:
 
 Remember to install the necessary packages for each model. You can do this using pip:
-pip install langchain-community
-pip install huggingface_hub  # for HuggingFace
-pip install google-api-python-client  # for Google PaLM
-pip install anthropic  # for Anthropic
-pip install cohere  # for Cohere
+- pip install langchain-community
+- pip install huggingface_hub  # for HuggingFace
+- pip install google-api-python-client  # for Google PaLM
+- pip install anthropic  # for Anthropic
+- pip install cohere  # for Cohere
 
 
+**Customization Possibilities**:
+- Adjust the summarization parameters (e.g., max_tokens, temperature)
+- Implement different summarization strategies (e.g., "stuff" or "refine" instead of "map_reduce")
+- Add error handling for file processing and API calls
+- Enhance the UI with additional Streamlit components
 
-
-Customization Possibilities:
-Adjust the summarization parameters (e.g., max_tokens, temperature)
-Implement different summarization strategies (e.g., "stuff" or "refine" instead of "map_reduce")
-Add error handling for file processing and API calls
-Enhance the UI with additional Streamlit components
-
-Limitations:
+**Limitations**:
 Depends on the structure of the input JSON file
 Requires an active internet connection for API calls to OpenAI
 Summary quality depends on the capabilities of the chosen language model
