@@ -1,0 +1,46 @@
+[
+    {
+      "role": "Ambassador",
+      "content": "Hello! Welcome to our university's information session. How can I help you today?"
+    },
+    {
+      "role": "Student",
+      "content": "Hi there! I'm interested in learning more about your computer science program. Can you tell me about it?"
+    },
+    {
+      "role": "Ambassador",
+      "content": "Of course! Our computer science program is highly regarded and offers a comprehensive curriculum. We cover various areas including programming, algorithms, artificial intelligence, and software engineering. What specific aspects are you most interested in?"
+    },
+    {
+      "role": "Student",
+      "content": "I'm particularly interested in AI and machine learning. Do you offer specialized courses in these areas?"
+    },
+    {
+      "role": "Ambassador",
+      "content": "Yes, we do! We have several courses focusing on AI and machine learning. These include Introduction to Artificial Intelligence, Machine Learning Algorithms, Deep Learning, and a special project course where students can work on cutting-edge AI applications. Our faculty includes experts in these fields who are actively involved in research."
+    },
+    {
+      "role": "Student",
+      "content": "That sounds great! What about internship opportunities? Are there any partnerships with tech companies?"
+    },
+    {
+      "role": "Ambassador",
+      "content": "Absolutely! We have strong relationships with several tech companies, both local startups and major corporations. Many of our students secure internships at places like Google, Microsoft, and Amazon. We also have a dedicated career services team that helps students find and apply for internships and jobs in their field of interest."
+    },
+    {
+      "role": "Student",
+      "content": "Wow, that's impressive. One last question - what are the admission requirements for the computer science program?"
+    },
+    {
+      "role": "Ambassador",
+      "content": "For admission to our computer science program, we look at several factors. These include your high school GPA, standardized test scores (SAT or ACT), and your performance in math and science courses. We also value extracurricular activities related to computer science, such as coding clubs or personal projects. A strong personal statement and letters of recommendation are also important. Do you have any specific concerns about the admission process?"
+    },
+    {
+      "role": "Student",
+      "content": "No, that covers my main questions. Thank you so much for the information!"
+    },
+    {
+      "role": "Ambassador",
+      "content": "You're welcome! I'm glad I could help. If you have any more questions in the future, don't hesitate to reach out. Good luck with your college search!"
+    }
+  ]
