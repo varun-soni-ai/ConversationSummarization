@@ -5,9 +5,13 @@
 > Components and Libraries Used:
 
 >> **Streamlit**: For creating the web application interface
+
 >> **JSON**: For parsing the uploaded JSON file
+
 >> **LangChain**: For creating and running the summarization chain
+
 >> **OpenAI**: As the language model for summarization
+
 >> **dotenv**: For loading environment variables
 
 > Key Functions and Their Roles: a. File Upload:
