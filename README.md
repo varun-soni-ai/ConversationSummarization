@@ -14,7 +14,9 @@
 
 >> **dotenv**: For loading environment variables
 
-> Key Functions and Their Roles: a. File Upload:
+**Key Functions and Their Roles: **
+
+> a. File Upload:
 - Uses Streamlit's file_uploader to allow users to upload a JSON file
 
 > b. JSON Processing:
